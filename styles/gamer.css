@@ -7,6 +7,20 @@
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+
+.special-text {
+  color: #ff42a5;
+}
+
+.special-text-2{
+  font-size: 5.6rem;
+  font-weight: 800;
+  background: linear-gradient(180deg,#f00bca 0%, #8906c5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* header styles */
 
 /* nav section styles */
@@ -23,10 +37,6 @@ nav {
   margin-right: auto;
   font-size: 2.81rem;
   font-weight: 700;
-}
-
-.special-text {
-  color: #ff42a5;
 }
 
 nav > ul {
@@ -75,16 +85,6 @@ nav li button {
   font-weight: 600;
 }
 
-.banner-special-text{
-  font-size: 5.6rem;
-  font-weight: 800;
-  background: linear-gradient(180deg,#f00bca 0%, #8906c5 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
-}
-
 .banner-description{
   color: #534C64;
   font-size: 1.25rem;
@@ -110,6 +110,35 @@ nav li button {
 
 .banner-img{
   padding: 1.18rem 15rem; 
+}
+/* main section styles */
+/* games videos section style */
+
+.games-videos-title{
+  color: #0B0223;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.games-videos-special-text{
+  background: linear-gradient(180deg,#f00bca 0%, #8906c5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.games-videos-description{
+  color: #534C64;
+  font-size: 1.1rem; 
+  font-weight: 400; 
+  text-align: center;
+}
+
+.games-videos-images{
+  display: flex;
+  gap: 1.5rem; 
+  padding:2rem 15rem;
 }
 
 
