@@ -145,6 +145,7 @@ nav li button {
 .online-games {
   display: flex;
   align-items: center;
+  margin-bottom: 12rem;
 }
 
 .online-games-title {
@@ -161,22 +162,115 @@ nav li button {
   padding-right: 14rem;
 }
 
-.online-games-img{
+.online-games-img {
   padding-left: 14rem;
 }
 
-.online-games-relative{
+.online-games-relative {
   position: relative;
   right: 200px;
   top: 260px;
 }
 
-/* Responsive */
-/* @media screen and (max-width: 576px) {
-  nav{
-    flex-direction: column;
-  }
-   nav > ul{
-    flex-direction: column;
-   }
-} */
+/* button section styles */
+
+.button {
+  display: flex;
+  gap: 27px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.main-content-btn {
+  border-radius: 50px;
+  background: #FFF;
+  border: 0;
+  padding: 25px 60px;
+}
+
+.button-content{
+ display: flex;
+ align-items: center;
+ gap: .8rem;
+}
+
+.main-content-btn:hover{
+  color: #ff42a5;
+  border: 1px solid #ff42a5;
+}
+
+/* footer section styles */
+
+.footer {
+  width: 1920px;
+  height: 636px;
+  background: #0b0223;
+  padding-top: 5rem;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+}
+
+.footer-content li {
+  list-style: none;
+}
+
+.footer-content li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 4rem;
+}
+
+.footer-icons a {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.footer-policy-content > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.75rem;
+  margin-top: 4rem;
+}
+
+.footer-policy-content li {
+  list-style: none;
+}
+
+.footer-policy-content li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #fff;
+  margin-top: 1.8rem;
+  font-weight: 500;
+}
