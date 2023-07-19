@@ -74,7 +74,7 @@ nav li button {
 }
 
 .banner-content {
-  padding: 6.5rem 12rem;
+  padding: 6.5rem 14rem;
 }
 
 .banner-title {
@@ -163,7 +163,7 @@ nav li button {
 }
 
 .online-games-img {
-  padding-left: 14rem;
+  padding-left: 15rem;
 }
 
 .online-games-relative {
@@ -176,18 +176,20 @@ nav li button {
 
 .button {
   display: flex;
-  gap: 27px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 .main-content-btn {
   border-radius: 50px;
   background: #FFF;
   border: 0;
-  padding: 25px 60px;
+  padding: 20px 35px;
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .button-content{
